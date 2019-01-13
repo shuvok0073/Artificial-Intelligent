@@ -1,0 +1,11 @@
+?- animal(tiger).
+true.
+
+?- animal(cow), animal(tiger).
+true.
+
+?- animal(lion), carnivore(lion).
+true.
+
+?- animal(cow), carnivore(cow).
+false.

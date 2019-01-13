@@ -1,0 +1,19 @@
+?- couple(X,Y).
+X = bill,
+Y = carol ;
+X = bill,
+Y = margaret ;
+X = bill,
+Y = jane ;
+X = george,
+Y = carol ;
+X = george,
+Y = margaret ;
+X = george,
+Y = jane ;
+X = alfred,
+Y = carol ;
+X = alfred,
+Y = margaret ;
+X = alfred,
+Y = jane.
